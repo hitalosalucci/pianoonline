@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #eeeeee;
+}
+
+/*navbar*/
+
+.logo-nav{
+	max-width: 210px;
+	max-height: 55px;
+	width: auto;
+	height: auto;
+	margin-top: 1%;
+} 
+
+nav{
+	height: 100px;
+}
+
+/*paragrado*/
+p{
+	text-align: justify;
+}
+
+/*define que a div opcoes tem o display por padrao none(esconde na tela)*/
+#div_opcoes{
+	display: none;
+}
+
+#anuncio-direita{
+	margin-top: 10px;
+}
+
+#img_anuncio_rodape{
+	margin-top: 30px;
+	width: 728px;
+	height: 90;
+}
+
+#img_anuncio_lateral{
+	width: 160px;
+	height: 600px;
+}
+
+/*div que contem os circulos das animações*/
+.animacao_counter{
+	margin-top: 10px;;
+}
+
+/*circulos das animações*/
+.dot {
+	height: 17px;
+	width: 17px;
+	background-color: #bbbbbbdd;
+	border-radius: 50%;
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 3px;;
+  }
+
+  .dot-active{
+	height: 17px;
+	width: 17px;
+	background-color: #01579b;
+	border-radius: 50%;
+	display: inline-block;
+  }
+  .pad{
+	  padding: 20px;
+	}
