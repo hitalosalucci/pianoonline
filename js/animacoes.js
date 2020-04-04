@@ -35,6 +35,8 @@ $(document).ready(function(){
                 $('[id=nota-preta-nome]').css({
                     display: 'none'
                 });
+
+                $('#notas-btn').text('Notas (Mostrar)');
             
             visibilidade = false;//alteramos o valor da variável para falso.
         } else {//ou se a variável estiver com o valor false..
@@ -46,6 +48,8 @@ $(document).ready(function(){
             $('[id=nota-preta-nome]').css({
                 display: 'block'
             });
+
+            $('#notas-btn').text('Notas (Esconder)');
 
             visibilidade = true;//Alteramos o valor da variável para true.
         }
@@ -61,6 +65,8 @@ $(document).ready(function(){
                 $('[id=controles-pretas]').css({
                     display: 'none'
                 });
+
+                $('#controle-btn').text('Controles (Mostrar)');
             
             visibilidade2 = false;//alteramos o valor da variável para falso.
         } else {//ou se a variável estiver com o valor false..
@@ -73,6 +79,8 @@ $(document).ready(function(){
                 display: 'block'
             });
 
+            $('#controle-btn').text('Controles (Esconder)');
+
             visibilidade2 = true;//Alteramos o valor da variável para true.
         }
     });
@@ -83,11 +91,11 @@ $(document).ready(function(){
             
                 $('[class=piano-fora]').css({
                     transform: 'rotate(90deg)',
-                    marginTop: '40%'
+                    marginTop: '38%'
                 });
 
-                $('.card').css({
-                    height: '100%'
+                $('#card-cinza').css({
+                    height: '400px'
                 });
 
             rotacionado = false;//alteramos o valor da variável para falso.
@@ -96,6 +104,8 @@ $(document).ready(function(){
             $('[class=piano-fora]').removeAttr( 'style' );
 
             $('.tecla-branca').removeAttr( 'style' );
+
+            $('#card-cinza').removeAttr( 'style' );
 
             rotacionado = true;//Alteramos o valor da variável para true.
         }
