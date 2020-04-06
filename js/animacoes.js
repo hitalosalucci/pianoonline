@@ -114,7 +114,7 @@ $(document).ready(function(){
 });
 
 function random_lateral(){
-    return Math.floor(Math.random() * 4);
+    return Math.floor(Math.random() * 6);
 }
 
 function random_rodape(){
@@ -128,15 +128,21 @@ function carrega_anuncio_lateral(){
     random_lateral();
 
     if (random_lateral() == 0){
-        img_lateral.src = 'anuncios/laterais/bannergi1.webp';
+        img_lateral.src = 'anuncios/laterais/anuncio1.webp';
     } else if (random_lateral() == 1){
-        img_lateral.src = 'anuncios/laterais/bannergi2.webp';
+        img_lateral.src = 'anuncios/laterais/anuncio2.webp';
     } else if (random_lateral() == 2){
-        img_lateral.src = 'anuncios/laterais/bannergi3.webp';
+        img_lateral.src = 'anuncios/laterais/anuncio3.webp';
     } else if (random_lateral() == 3){
-        img_lateral.src = 'anuncios/laterais/bannergi4.webp';
-    } else {
-        img_lateral.src = 'anuncios/laterais/bannergi1.webp';
+        img_lateral.src = 'anuncios/laterais/anuncio4.webp';
+    } else if (random_lateral() == 4){
+        img_lateral.src = 'anuncios/laterais/anuncio5.webp';
+    } else if (random_lateral() == 5){
+        img_lateral.src = 'anuncios/laterais/anuncio6.webp';
+    } else if (random_lateral() == 6){
+        img_lateral.src = 'anuncios/laterais/anuncio7.webp';
+    }else {
+        img_lateral.src = 'anuncios/laterais/anuncio1.webp';
     }
 }
 
@@ -147,13 +153,15 @@ function carrega_anuncio_rodape(){
     random_rodape();
 
     if (random_rodape() == 0){
-        img_rodape.src = 'anuncios/rodape/bannergi1.webp';
+        img_rodape.src = 'anuncios/rodape/anuncio1.webp';
     } else if (random_rodape() == 1){
-        img_rodape.src = 'anuncios/rodape/bannergi2.webp';
+        img_rodape.src = 'anuncios/rodape/anuncio2.webp';
     } else if (random_rodape() == 2){
-        img_rodape.src = 'anuncios/rodape/bannergi3.webp';
+        img_rodape.src = 'anuncios/rodape/anuncio3.webp';
+    } else if (random_rodape() == 3){
+        img_rodape.src = 'anuncios/rodape/anuncio4.webp';
     } else {
-        img_rodape.src = 'anuncios/rodape/bannergi1.webp';
+        img_rodape.src = 'anuncios/rodape/anuncio4.webp';
     }
 }
 
