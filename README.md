@@ -1,1 +1,1 @@
-Projeto de um aplicativo Web de piano online, sem precisar instalar plugins, com divulgação de bons cursos de música e anúncios do Google Adsense, de forma a ajudar pessoas e consequentemente, monetizar ou aplicativo.
+Projeto de um WEB APP de um piano com o objetivo de estudo da linguagem JavaScript puro, conhecer a estrutura do Framework CSS Materialize e aprender manipulçaão de sons usando o navegador
